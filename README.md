@@ -1,2 +1,2 @@
 # School
-My school files
+Files which are located on my school computer
