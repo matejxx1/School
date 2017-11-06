@@ -1,0 +1,120 @@
+\documentclass[a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage{amsmath}
+\usepackage{amssymb} 
+\usepackage{theorem} 
+\setlength{\parindent}{0pt}
+\usepackage{graphicx}
+\usepackage{pgf,tikz}
+\usepackage{mathrsfs}
+\usetikzlibrary{arrows}
+\pagestyle{empty}
+\begin{document}
+\definecolor{ccqqqq}{rgb}{0.8,0.,0.}
+\definecolor{qqwuqq}{rgb}{0.,0.39215686274509803,0.}
+\definecolor{cqcqcq}{rgb}{0.7529411764705882,0.7529411764705882,0.7529411764705882}
+
+\title{Enačbe}
+\maketitle
+\[
+\sqrt{x+\frac{x}{x^{2}-1}}=x\sqrt\frac{x}{x^{2}-1}
+\]
+
+vsakič ko imamo v enačbi kakšne ulomke,racionalne,logaritmske funkcije oz. krkšne kol funkcije ki niso povsod definirane moramo najprej najti definicisko območje.
+
+\vspace{1cm}
+poglejmo najprej
+\(x\sqrt\frac{x}{x^{2}-1}\) $ x$ je definiran povsod tako da tukaj nebo problema.\\
+$\sqrt\frac{x}{x^{2}-1}\quad$kvadratni koren je pa definiran če je tisto znotraj nenegativno število oz. $\frac{x}{x^{2}-1}\geq0$\\
+zračunamo $\frac{x}{x^{2}-1}\geq0$
+
+\[\frac{x}{x^{2}-1}\geq0\implies\frac{x}{(x-1)(x+1)}\geq0\]
+\textbf{opomba: }tukaj nemoremo kar pomnožiti z \(x^{2}-1\) saj neenakost pri množenju z negativnim številom obrne smer mi pa še nevemo kdaj je negativno in kdaj pozitivno\\
+
+najprej zračunamo vse ničle in pole in jih označimo na številsko premico pri nas so to x=0,x=1,x=-1
+
+\begin{center}
+\begin{tikzpicture}
+      \draw[<->] (-3,0) -- (4.2,0) node[right] {$x$};
+     \filldraw [black] (0,0) circle (2pt) node[anchor=north] {0};
+\filldraw [black] (-1,0) circle (2pt) node[anchor=north] {-1};
+\filldraw [black] (1,0) circle (2pt) node[anchor=north] {1};
+
+\filldraw [] (2,0) node[anchor=south] {+};
+\filldraw [] (-2,0) node[anchor=south] {-};
+\filldraw [] (0.5,0) node[anchor=south] {-};
+\filldraw [] (-0.5,0) node[anchor=south] {+};
+ \end{tikzpicture}
+\end{center}
+
+ ker so vsi poli in ničle lihe stopnje se predznak vedno spremeni. Sedaj vidimo da bo desna funkcija definirana ko bo \(x\in(-1,0]\cup(1,\infty)\). Isto nardimo še za levo stran:
+\[
+x+\frac{x}{x^{2}-1}\geq0\implies\frac{x(x^{2}-1)+x}{x^{2}-1}\geq0\implies\frac{(}{(x-1)(x+1)}\geq0
+\]
+ponovno označimo vse ničle in poli ( spet so vsi lihi zato se predznak vedno spremeni)\\
+\begin{center}
+\begin{tikzpicture}
+      \draw[<->] (-3,0) -- (4.2,0) node[right] {$x$};
+     \filldraw [black] (0,0) circle (2pt) node[anchor=north] {0};
+\filldraw [black] (-1,0) circle (2pt) node[anchor=north] {-1};
+\filldraw [black] (1,0) circle (2pt) node[anchor=north] {1};
+
+\filldraw [] (2,0) node[anchor=south] {+};
+\filldraw [] (-2,0) node[anchor=south] {-};
+\filldraw [] (0.5,0) node[anchor=south] {-};
+\filldraw [] (-0.5,0) node[anchor=south] {+};
+ \end{tikzpicture}
+ \end{center}
+vzamemo sedaj presek definicijskih območij ( v tem primeru sta oba enaka) in si ga nekam zabeležimo ( rabm ga bomo pozneje)
+\newpage
+poglejmo si sedaj spet enačbo
+\[
+\sqrt{x+\frac{x}{x^{2}-1}}=x\sqrt\frac{x}{x^{2}-1}
+\]
+v teh primerih  vedno poskušamo enačbo preoblikovati v tako obliko da bo koren na eni strani vse ostalo pa na drugi
+
+\begin{align*}
+&\sqrt{x+\frac{x}{x^{2}-1}}=x\sqrt\frac{x}{x^{2}-1}\quad \setminus\sqrt\frac{x}{x^{2}-1}\text{to lahko naredimo ko \(\sqrt\frac{x}{x^{2}-1}\neq0\Leftrightarrow x\neq0\)}
+\\
+&\sqrt{\frac{x}{\frac{x}{x^{2}-1}}+\frac{\frac{x}{x^{2}-1}}{\frac{x}{x^{2}-1}}}=x\\
+&\sqrt{x^{2}-1+1}=x\\
+&\sqrt{x^{2}}=x\implies|x|=x\Leftrightarrow x>0
+\end{align*}
+
+poglejmo še za 
+\[
+\sqrt\frac{x}{x^{2}-1}=0
+\]
+
+takrat namreč nesmomo deliti saj deljenje z 0 ni definirano. Ampak to je nič samo ko je x=0 ( to so preverili ko smo iskali ničle in pole vstavimo x=0 v enačbo in preverimo če jo reši.
+
+Ko vstavimo x=0 v enačbo dobimo 0=0 kar je vredu 
+\vspace{0.2cm}
+dobili smo odgovor da x reši enačbo ko \(x\geq0\) poglejmo sedaj kdaj je ta rešitev v našem definicijskem območju. Definicijsko območje je bilo\((-1,0]\cup(1,\infty)\) in x je v definicijskem območju ko je \(x=0\lor x\in(1,\infty)\) in to naše rešitev
+
+za lažjo predstavo sta tukaj grafa funkcij
+
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm][l]
+\draw [color=cqcqcq,, xstep=1.0cm,ystep=1.0cm] (-6.,-5) grid (6,5);
+\draw[->,color=black] (-6.0,0.) -- (6.0,0.);
+\foreach \x in {-6.,-5.,-4.,-3.,-2.,-1.,1.,2.,3.,4.,5.,6.}
+\draw[shift={(\x,0)},color=black] (0pt,2pt) -- (0pt,-2pt) node[below] {\footnotesize $\x$};
+\draw[->,color=black] (0.,-5) -- (0.,5);
+\foreach \y in {-5,-4,-3.,-2.,-1.,1.,2.,3.,4.,5.}
+\draw[shift={(0,\y)},color=black] (2pt,0pt) -- (-2pt,0pt) node[left] {\footnotesize $\y$};
+\draw[color=black] (0pt,-10pt) node[right] {\footnotesize $0$};
+\clip(-6,-5) rectangle (6,5);
+\draw[line width=2.pt,color=qqwuqq,smooth,samples=100,domain=-0.999:-1.2951001766995524E-7] plot(\x,{(\x)*sqrt((\x)/((\x)^(2.0)-1.0))});
+\draw[line width=2.pt,color=qqwuqq,smooth,samples=1000,domain=1.0009:14.632393684923517] plot(\x,{(\x)*sqrt((\x)/((\x)^(2.0)-1.0))});
+\draw[line width=2.4pt,color=ccqqqq,smooth,samples=100,domain=-0.999:-1.2951001766995524E-7] plot(\x,{sqrt((\x)+(\x)/((\x)^(2.0)-1.0))});
+\draw[line width=2.4pt,color=ccqqqq,smooth,samples=1000,domain=1.0009:14.632393684923517] plot(\x,{sqrt((\x)+(\x)/((\x)^(2.0)-1.0))});
+\begin{scriptsize}
+\draw[color=qqwuqq] (-0.8088973294730109,-3.2672484905485075);
+\draw[color=ccqqqq] (-0.8332719009243077,7.384439233668204);
+ \filldraw [qqwuqq] (0,-0.7)   node[anchor=west] {$x\sqrt\frac{x}{x^{2}-1}$};
+ \filldraw [ccqqqq] (0,0.5)   node[anchor=west] {$\sqrt{x+\frac{x}{x^{2}-1}}$};
+\end{scriptsize}
+\end{tikzpicture}
+\end{document}
