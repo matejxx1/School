@@ -1,0 +1,6 @@
+[submodule "POP/POP/vaje-iz-funkcij"]
+	path = POP/POP/vaje-iz-funkcij
+	url = https://github.com/matejxx1/vaje-iz-funkcij.git
+[submodule "POP/vaje-iz-funkcij"]
+	path = POP/vaje-iz-funkcij
+	url = https://github.com/matejxx1/vaje-iz-funkcij.git
