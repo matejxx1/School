@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 *.aux
@@ -245,3 +246,12 @@ TSWLatexianTemp*
 /odgovori-sincos.tex
 /vaje.pdf
 /odgovori-polinomi.tex
+=======
+*.hi
+*.o
+*.pyc
+.ipynb_checkpoints
+*.xdv
+*.fls
+*.fdb_latexmk
+>>>>>>> c139eaa0933b69615114b4d92f495c990e2d5fe4
