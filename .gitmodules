@@ -1,9 +1,0 @@
-[submodule "POP/POP/vaje-iz-funkcij"]
-	path = POP/POP/vaje-iz-funkcij
-	url = https://github.com/matejxx1/vaje-iz-funkcij.git
-[submodule "POP/vaje-iz-funkcij"]
-	path = POP/vaje-iz-funkcij
-	url = https://github.com/matejxx1/vaje-iz-funkcij.git
-[submodule "Programiranje_1/programiranje-1"]
-	path = Programiranje_1/programiranje-1
-	url = https://github.com/matijapretnar/programiranje-1.git
