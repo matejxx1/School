@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 *.aux
 *.aux.bak
 *.dvi
@@ -20,19 +18,7 @@
 .DS_Store
 *.fdb_latexmk
 *.pdf
-=======
-## Core latex/pdflatex auxiliary files:
-*.aux
-*.lof
-*.log
-*.lot
-*.fls
-*.out
-*.toc
-*.fmt
-*.fot
-*.cb
-*.cb2
+
 
 ## Intermediate documents:
 *.dvi
@@ -245,4 +231,11 @@ TSWLatexianTemp*
 /odgovori-sincos.tex
 /vaje.pdf
 /odgovori-polinomi.tex
->>>>>>> b95628bffffce06f10f55fcc6d2bdbf89c3cb143
+
+*.hi
+*.o
+*.pyc
+.ipynb_checkpoints
+*.xdv
+*.fls
+*.fdb_latexmk
