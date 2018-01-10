@@ -1,0 +1,2005 @@
+version: 0.10.0
+filePath: Poročilo.tex
+options:
+  $BIBINPUTS:
+    - $ROOTDIR
+    - $ROOTDIR/$OUTDIR
+    - ''
+  $TEXINPUTS:
+    - $ROOTDIR
+    - $ROOTDIR/$OUTDIR
+    - ''
+  bibtexEngine: bibtex
+  cleanPatterns: &ref_0
+    - '**/*.aux'
+    - '**/*.aux.bak'
+    - '**/*.bbl'
+    - '**/*.bcf'
+    - '**/*.blg'
+    - '**/*.dvi'
+    - '**/*.fdb_latexmk'
+    - '**/*.fls'
+    - '**/*.idx'
+    - '**/*.idx.bak'
+    - '**/*.ilg'
+    - '**/*.ind'
+    - '**/*.lof'
+    - '**/*.log'
+    - '**/*.lol'
+    - '**/*.lot'
+    - '**/*.nav'
+    - '**/*.out'
+    - '**/*.pdf'
+    - '**/*.ps'
+    - '**/*.snm'
+    - '**/*.synctex.gz'
+    - '**/*.toc'
+    - '/**/_minted-${JOB}'
+    - '/${OUTDIR}/sage-plots-for-${JOB}.tex'
+    - /missfont.log
+    - /texput.log
+    - /texput.aux
+  dviToPdfEngine: xdvipdfmx
+  engine: pdflatex
+  epstopdfBoundingBox: default
+  epstopdfOutputPath: $DIR_0/$NAME_0.pdf
+  indexAutomaticRanges: true
+  indexEngine: makeindex
+  indexOrdering: word
+  indexSorting: default
+  knitrConcordance: true
+  knitrOutputPath: $JOB.tex
+  lhs2texStyle: poly
+  literateAgdaEngine: agda
+  literateHaskellEngine: lhs2TeX
+  loadCache: true
+  loadUserOptions: true
+  outputFormat: pdf
+  phaseCycles: 20
+  pweaveCacheDirectory: pweave-cache-for-$JOB
+  pweaveFigureDirectory: pweave-figures-for-$JOB
+  pweaveKernel: python3
+  pweaveOutputFormat: tex
+  pweaveOutputPath: $JOB.tex
+  saveCache: true
+  severity: info
+  validateCache: true
+  synctex: true
+  copyTargetsToRoot: true
+  outputDirectory: ''
+  shellEscape: enabled
+  intermediatePostScript: false
+  $PATH: >-
+    %SystemDrive%\texlive\2017\bin\win32;%SystemDrive%\texlive\2016\bin\win32;%SystemDrive%\texlive\2015\bin\win32;%ProgramFiles%\MiKTeX
+    2.9\miktex\bin\x64;%ProgramFiles(x86)%\MiKTeX 2.9\miktex\bin;$PATH
+files:
+  dicy-instance.yaml-ParsedYAML:
+    timeStamp: 2017-12-30T18:32:12.663Z
+    jobNames: []
+    value:
+      severity: info
+    type: ParsedYAML
+  dicy.yaml-ParsedYAML:
+    jobNames: []
+    type: ParsedYAML
+  Poročilo.yaml-ParsedYAML:
+    jobNames: []
+    type: ParsedYAML
+  Poročilo.tex-ParsedLaTeXMagic:
+    timeStamp: 2017-12-30T18:32:12.760Z
+    jobNames: []
+    value: {}
+    type: ParsedLaTeXMagic
+  'C:\Users\Westlife\.dicy.yaml-ParsedYAML':
+    timeStamp: 2017-12-30T18:44:49.899Z
+    jobNames: []
+    value:
+      engine: pdflatex
+      synctex: true
+      severity: info
+      copyTargetsToRoot: true
+      outputDirectory: ''
+      outputFormat: pdf
+      cleanPatterns: *ref_0
+      shellEscape: enabled
+      intermediatePostScript: false
+      $PATH: >-
+        %SystemDrive%\texlive\2017\bin\win32;%SystemDrive%\texlive\2016\bin\win32;%SystemDrive%\texlive\2015\bin\win32;%ProgramFiles%\MiKTeX
+        2.9\miktex\bin\x64;%ProgramFiles(x86)%\MiKTeX 2.9\miktex\bin;$PATH
+    type: ParsedYAML
+  Poročilo.tex:
+    timeStamp: 2018-01-10T22:29:49.256Z
+    jobNames: []
+    hash: s5V2F4940ZNdd0emn0/KBVqd2LrqeX4n/Wa64Z8xln8=
+    type: LaTeX
+    subType: article
+  'C:\Users\Westlife\.dicy.yaml':
+    timeStamp: 2018-01-10T22:04:58.176Z
+    jobNames: []
+    type: YAML
+  x.y-Nil:
+    jobNames: []
+    type: Nil
+  Poročilo.fls-ParsedFileListing:
+    timeStamp: 2018-01-10T22:24:45.637Z
+    jobNames: []
+    value:
+      messages: []
+      inputs:
+        - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecbx1200.tfm'
+        - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecbx1440.tfm'
+        - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecbx2074.tfm'
+        - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\eccc1000.tfm'
+        - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\eccc1440.tfm'
+        - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\eccc1728.tfm'
+        - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecrm0500.tfm'
+        - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecrm0700.tfm'
+        - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecrm1000.tfm'
+        - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecrm1200.tfm'
+        - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecrm1440.tfm'
+        - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecrm2074.tfm'
+        - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecti1440.tfm'
+        - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ectt1000.tfm'
+        - >-
+          C:\Program Files\MiKTeX
+          2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+        - >-
+          C:\Program Files\MiKTeX
+          2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+        - >-
+          C:\Program Files\MiKTeX
+          2.9\fonts\tfm\public\amsfonts\symbols\msam5.tfm
+        - >-
+          C:\Program Files\MiKTeX
+          2.9\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+        - >-
+          C:\Program Files\MiKTeX
+          2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+        - >-
+          C:\Program Files\MiKTeX
+          2.9\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+        - >-
+          C:\Program Files\MiKTeX
+          2.9\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+        - 'C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def'
+        - 'C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty'
+        - 'C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty'
+        - 'C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty'
+        - 'C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty'
+        - 'C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty'
+        - 'C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty'
+        - 'C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty'
+        - 'C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty'
+        - 'C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty'
+        - 'C:\Program Files\MiKTeX 2.9\tex\latex\amscls\amsthm.sty'
+        - 'C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty'
+        - 'C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty'
+        - 'C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd'
+        - 'C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd'
+        - 'C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty'
+        - 'C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty'
+        - 'C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty'
+        - 'C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty'
+        - 'C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty'
+        - 'C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls'
+        - 'C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty'
+        - 'C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty'
+        - 'C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu'
+        - 'C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu'
+        - 'C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo'
+        - 'C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd'
+        - 'C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def'
+        - 'C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu'
+        - 'C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def'
+        - 'C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty'
+        - 'C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg'
+        - 'C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def'
+        - 'C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty'
+        - 'C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty'
+        - 'C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty'
+        - 'C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty'
+        - 'C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty'
+        - 'C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty'
+        - 'C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty'
+        - 'C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty'
+        - 'C:\Program Files\MiKTeX 2.9\tex\latex\tools\enumerate.sty'
+        - 'C:\Program Files\MiKTeX 2.9\tex\latex\tools\verbatim.sty'
+        - 'C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty'
+        - 'C:\ProgramData\MiKTeX\2.9\pdftex\config\pdftex.map'
+        - >-
+          C:\Users\Westlife\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
+        - >-
+          C:\Users\Westlife\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
+        - >-
+          C:\Users\Westlife\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk
+        - >-
+          C:\Users\Westlife\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1440.pk
+        - >-
+          C:\Users\Westlife\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1728.pk
+        - >-
+          C:\Users\Westlife\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk
+        - >-
+          C:\Users\Westlife\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1440.pk
+        - >-
+          C:\Users\Westlife\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1000.pk
+        - >-
+          C:\Users\Westlife\AppData\Local\MiKTeX\2.9\miktex\data\le\pdftex\pdflatex.fmt
+        - >-
+          C:\Users\Westlife\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+        - >-
+          C:\Users\Westlife\AppData\Roaming\MiKTeX\2.9\tex\latex\arabi\bblopts.cfg
+        - >-
+          C:\Users\Westlife\AppData\Roaming\MiKTeX\2.9\tex\latex\babel-slovenian\slovene.ldf
+        - >-
+          C:\Users\Westlife\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
+        - >-
+          C:\Users\Westlife\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
+        - >-
+          C:\Users\Westlife\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
+        - >-
+          C:\Users\Westlife\AppData\Roaming\MiKTeX\2.9\tex\latex\preprint\fullpage.sty
+        - KnownvsUnknown.png
+        - Poročilo.aux
+        - Poročilo.tex
+        - Top10MostPlayed.png
+        - fgraf_povprecna_ocena_leto.png
+        - graf_Dobre_leto.png
+        - graf_PovprecneIgre_leto.png
+        - graf_SlabeIgre_leto.png
+        - graf_meta_rec.png
+        - graf_povprecna_ocena.png
+        - graf_stevilo_dlc_leto.png
+        - graf_stevilo_ocen.png
+        - zanr-meta-pov.png
+      outputs:
+        - Poročilo.aux
+        - Poročilo.log
+        - Poročilo.pdf
+      calls: []
+    type: ParsedFileListing
+  Poročilo.log-ParsedLaTeXLog:
+    timeStamp: 2018-01-10T22:29:50.814Z
+    jobNames: []
+    value:
+      messages:
+        - name: pdfTeX
+          severity: info
+          text: inputenc 2015/03/17 v1.2c Input encoding file
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty'
+          log:
+            file: Poročilo.log
+            range:
+              start: 24
+              end: 24
+        - name: pdfTeX
+          severity: info
+          text: >-
+            babel 2017/05/19 3.10 The Babel package Local config file
+            bblopts.cfg used
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty'
+          log:
+            file: Poročilo.log
+            range:
+              start: 337
+              end: 339
+        - severity: info
+          name: pdfTeX
+          category: Package babel
+          text: Making " an active character
+          source:
+            file: >-
+              C:\Users\Westlife\AppData\Roaming\MiKTeX\2.9\tex\latex\babel-slovenian\slovene.ldf
+            range:
+              start: 79
+              end: 79
+          log:
+            file: Poročilo.log
+            range:
+              start: 353
+              end: 353
+        - name: pdfTeX
+          severity: info
+          text: fontenc 2017/04/05 v2.0i Standard LaTeX package
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty'
+          log:
+            file: Poročilo.log
+            range:
+              start: 355
+              end: 355
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring font encoding T1
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def'
+            range:
+              start: 48
+              end: 48
+          log:
+            file: Poročilo.log
+            range:
+              start: 358
+              end: 358
+        - name: pdfTeX
+          severity: info
+          text: fullpage 1999/02/23 1.1 (PWD)
+          source:
+            file: >-
+              C:\Users\Westlife\AppData\Roaming\MiKTeX\2.9\tex\latex\preprint\fullpage.st
+          log:
+            file: Poročilo.log
+            range:
+              start: 361
+              end: 361
+        - name: pdfTeX
+          severity: info
+          text: amsmath 2016/11/05 v2.16a AMS math features
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty'
+          log:
+            file: Poročilo.log
+            range:
+              start: 364
+              end: 364
+        - name: pdfTeX
+          severity: info
+          text: amstext 2000/06/29 v2.01 AMS text
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty'
+          log:
+            file: Poročilo.log
+            range:
+              start: 368
+              end: 368
+        - name: pdfTeX
+          severity: info
+          text: amsbsy 1999/11/29 v1.2d Bold Symbols
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty'
+          log:
+            file: Poročilo.log
+            range:
+              start: 374
+              end: 374
+        - name: pdfTeX
+          severity: info
+          text: amsopn 2016/03/08 v2.02 operator names
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty'
+          log:
+            file: Poročilo.log
+            range:
+              start: 377
+              end: 377
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: Redefining \frac
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty'
+            range:
+              start: 213
+              end: 213
+          log:
+            file: Poročilo.log
+            range:
+              start: 380
+              end: 380
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: Redefining \overline
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty'
+            range:
+              start: 375
+              end: 375
+          log:
+            file: Poročilo.log
+            range:
+              start: 383
+              end: 383
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: Redefining \ldots
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty'
+            range:
+              start: 472
+              end: 472
+          log:
+            file: Poročilo.log
+            range:
+              start: 386
+              end: 386
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: Redefining \dots
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty'
+            range:
+              start: 475
+              end: 475
+          log:
+            file: Poročilo.log
+            range:
+              start: 387
+              end: 387
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: Redefining \cdots
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty'
+            range:
+              start: 596
+              end: 596
+          log:
+            file: Poročilo.log
+            range:
+              start: 388
+              end: 388
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring font encoding OML
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty'
+            range:
+              start: 712
+              end: 712
+          log:
+            file: Poročilo.log
+            range:
+              start: 392
+              end: 392
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring font encoding OMS
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty'
+            range:
+              start: 713
+              end: 713
+          log:
+            file: Poročilo.log
+            range:
+              start: 393
+              end: 393
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: 'Redefining \['
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty'
+            range:
+              start: 2817
+              end: 2817
+          log:
+            file: Poročilo.log
+            range:
+              start: 414
+              end: 414
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: 'Redefining \]'
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty'
+            range:
+              start: 2818
+              end: 2818
+          log:
+            file: Poročilo.log
+            range:
+              start: 415
+              end: 415
+        - name: pdfTeX
+          severity: info
+          text: amssymb 2013/01/14 v3.01 AMS font symbols
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty'
+          log:
+            file: Poročilo.log
+            range:
+              start: 417
+              end: 417
+        - name: pdfTeX
+          severity: info
+          text: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty'
+          log:
+            file: Poročilo.log
+            range:
+              start: 419
+              end: 419
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: >-
+            Overwriting math alphabet `\mathfrak' in version `bold' U/euf/m/n
+            --> U/euf/b/n.
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty'
+            range:
+              start: 106
+              end: 106
+          log:
+            file: Poročilo.log
+            range:
+              start: 422
+              end: 423
+        - name: pdfTeX
+          severity: info
+          text: amsthm 2015/03/04 v2.20.2
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\latex\amscls\amsthm.sty'
+          log:
+            file: Poročilo.log
+            range:
+              start: 425
+              end: 425
+        - name: pdfTeX
+          severity: info
+          text: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\latex\tools\enumerate.sty'
+          log:
+            file: Poročilo.log
+            range:
+              start: 436
+              end: 436
+        - name: pdfTeX
+          severity: info
+          text: keyval 2014/10/28 v1.15 key=value parser (DPC)
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty'
+          log:
+            file: Poročilo.log
+            range:
+              start: 440
+              end: 440
+        - name: pdfTeX
+          severity: info
+          text: listings 2015/06/04 1.6 (Carsten Heinz)
+          source:
+            file: Poročilo.tex
+          log:
+            file: Poročilo.log
+            range:
+              start: 463
+              end: 463
+        - name: pdfTeX
+          severity: info
+          text: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\latex\tools\verbatim.sty'
+          log:
+            file: Poročilo.log
+            range:
+              start: 465
+              end: 465
+        - name: pdfTeX
+          severity: info
+          text: float 2001/11/08 v1.3d Float enhancements (AL)
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty'
+          log:
+            file: Poročilo.log
+            range:
+              start: 470
+              end: 470
+        - name: pdfTeX
+          severity: info
+          text: 'graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)'
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty'
+          log:
+            file: Poročilo.log
+            range:
+              start: 477
+              end: 477
+        - name: pdfTeX
+          severity: info
+          text: 'graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)'
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty'
+          log:
+            file: Poročilo.log
+            range:
+              start: 479
+              end: 479
+        - name: pdfTeX
+          severity: info
+          text: trig 2016/01/03 v1.10 sin cos tan (DPC)
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty'
+          log:
+            file: Poročilo.log
+            range:
+              start: 481
+              end: 481
+        - severity: info
+          name: pdfTeX
+          category: Package graphics
+          text: 'Driver file: pdftex.def'
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty'
+            range:
+              start: 99
+              end: 99
+          log:
+            file: Poročilo.log
+            range:
+              start: 485
+              end: 485
+        - name: pdfTeX
+          severity: info
+          text: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty'
+          log:
+            file: Poročilo.log
+            range:
+              start: 489
+              end: 489
+        - name: pdfTeX
+          severity: info
+          text: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty'
+          log:
+            file: Poročilo.log
+            range:
+              start: 491
+              end: 491
+        - name: pdfTeX
+          severity: info
+          text: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty'
+          log:
+            file: Poročilo.log
+            range:
+              start: 498
+              end: 498
+        - name: pdfTeX
+          severity: info
+          text: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty'
+          log:
+            file: Poročilo.log
+            range:
+              start: 500
+              end: 500
+        - name: pdfTeX
+          severity: info
+          text: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty'
+          log:
+            file: Poročilo.log
+            range:
+              start: 502
+              end: 502
+        - name: pdfTeX
+          severity: info
+          text: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty'
+          log:
+            file: Poročilo.log
+            range:
+              start: 504
+              end: 504
+        - name: pdfTeX
+          severity: info
+          text: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty'
+          log:
+            file: Poročilo.log
+            range:
+              start: 506
+              end: 506
+        - name: pdfTeX
+          severity: info
+          text: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty'
+          log:
+            file: Poročilo.log
+            range:
+              start: 508
+              end: 508
+        - name: pdfTeX
+          severity: info
+          text: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty'
+          log:
+            file: Poročilo.log
+            range:
+              start: 510
+              end: 510
+        - name: pdfTeX
+          severity: info
+          text: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty'
+          log:
+            file: Poročilo.log
+            range:
+              start: 512
+              end: 512
+        - severity: info
+          name: pdfTeX
+          category: Package ifluatex
+          text: LuaTeX not detected.
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty'
+          log:
+            file: Poročilo.log
+            range:
+              start: 513
+              end: 513
+        - severity: info
+          name: pdfTeX
+          category: Package etexcmds
+          text: >-
+            Could not find \expanded. That can mean that you are not using
+            pdfTeX 1.50 or that some package has redefined \expanded. In the
+            latter case, load this package earlier.
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty'
+          log:
+            file: Poročilo.log
+            range:
+              start: 515
+              end: 518
+        - name: pdfTeX
+          severity: info
+          text: >-
+            pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX
+            (HO)
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty'
+          log:
+            file: Poročilo.log
+            range:
+              start: 520
+              end: 521
+        - name: pdfTeX
+          severity: info
+          text: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty'
+          log:
+            file: Poročilo.log
+            range:
+              start: 523
+              end: 523
+        - severity: info
+          name: pdfTeX
+          category: Package pdftexcmds
+          text: LuaTeX not detected.
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty'
+          log:
+            file: Poročilo.log
+            range:
+              start: 525
+              end: 525
+        - severity: info
+          name: pdfTeX
+          category: Package pdftexcmds
+          text: \pdf@primitive is available.
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty'
+          log:
+            file: Poročilo.log
+            range:
+              start: 526
+              end: 526
+        - severity: info
+          name: pdfTeX
+          category: Package pdftexcmds
+          text: \pdf@ifprimitive is available.
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty'
+          log:
+            file: Poročilo.log
+            range:
+              start: 527
+              end: 527
+        - severity: info
+          name: pdfTeX
+          category: Package pdftexcmds
+          text: \pdfdraftmode found.
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty'
+          log:
+            file: Poročilo.log
+            range:
+              start: 528
+              end: 528
+        - severity: info
+          name: pdfTeX
+          category: Package epstopdf-base
+          text: Redefining graphics rule for `.eps'
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty'
+            range:
+              start: 438
+              end: 438
+          log:
+            file: Poročilo.log
+            range:
+              start: 530
+              end: 531
+        - severity: info
+          name: pdfTeX
+          category: Package grfext
+          text: >-
+            Graphics extension search list:
+            [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+            \AppendGraphicsExtensions.
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty'
+            range:
+              start: 456
+              end: 456
+          log:
+            file: Poročilo.log
+            range:
+              start: 532
+              end: 535
+        - name: pdfTeX
+          severity: info
+          text: 'url 2013/09/16 ver 3.4 Verb mode for urls, etc.'
+          source:
+            file: 'C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty'
+          log:
+            file: Poročilo.log
+            range:
+              start: 538
+              end: 538
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Checking defaults for OML/cmm/m/it
+          source:
+            file: Poročilo.tex
+            range:
+              start: 16
+              end: 16
+          log:
+            file: Poročilo.log
+            range:
+              start: 542
+              end: 542
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: ... okay
+          source:
+            file: Poročilo.tex
+            range:
+              start: 16
+              end: 16
+          log:
+            file: Poročilo.log
+            range:
+              start: 543
+              end: 543
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Checking defaults for T1/cmr/m/n
+          source:
+            file: Poročilo.tex
+            range:
+              start: 16
+              end: 16
+          log:
+            file: Poročilo.log
+            range:
+              start: 544
+              end: 544
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: ... okay
+          source:
+            file: Poročilo.tex
+            range:
+              start: 16
+              end: 16
+          log:
+            file: Poročilo.log
+            range:
+              start: 545
+              end: 545
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Checking defaults for OT1/cmr/m/n
+          source:
+            file: Poročilo.tex
+            range:
+              start: 16
+              end: 16
+          log:
+            file: Poročilo.log
+            range:
+              start: 546
+              end: 546
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: ... okay
+          source:
+            file: Poročilo.tex
+            range:
+              start: 16
+              end: 16
+          log:
+            file: Poročilo.log
+            range:
+              start: 547
+              end: 547
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Checking defaults for OMS/cmsy/m/n
+          source:
+            file: Poročilo.tex
+            range:
+              start: 16
+              end: 16
+          log:
+            file: Poročilo.log
+            range:
+              start: 548
+              end: 548
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: ... okay
+          source:
+            file: Poročilo.tex
+            range:
+              start: 16
+              end: 16
+          log:
+            file: Poročilo.log
+            range:
+              start: 549
+              end: 549
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Checking defaults for OMX/cmex/m/n
+          source:
+            file: Poročilo.tex
+            range:
+              start: 16
+              end: 16
+          log:
+            file: Poročilo.log
+            range:
+              start: 550
+              end: 550
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: ... okay
+          source:
+            file: Poročilo.tex
+            range:
+              start: 16
+              end: 16
+          log:
+            file: Poročilo.log
+            range:
+              start: 551
+              end: 551
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Checking defaults for U/cmr/m/n
+          source:
+            file: Poročilo.tex
+            range:
+              start: 16
+              end: 16
+          log:
+            file: Poročilo.log
+            range:
+              start: 552
+              end: 552
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: ... okay
+          source:
+            file: Poročilo.tex
+            range:
+              start: 16
+              end: 16
+          log:
+            file: Poročilo.log
+            range:
+              start: 553
+              end: 553
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Try loading font information for T1+cmtt
+          source:
+            file: Poročilo.tex
+            range:
+              start: 51
+              end: 51
+          log:
+            file: Poročilo.log
+            range:
+              start: 571
+              end: 571
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Try loading font information for U+msa
+          source:
+            file: Poročilo.tex
+            range:
+              start: 51
+              end: 51
+          log:
+            file: Poročilo.log
+            range:
+              start: 575
+              end: 575
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Try loading font information for U+msb
+          source:
+            file: Poročilo.tex
+            range:
+              start: 51
+              end: 51
+          log:
+            file: Poročilo.log
+            range:
+              start: 579
+              end: 579
+        - severity: info
+          name: pdfTeX
+          category: Package pdftex.def
+          text: >-
+            graf_stevilo_ocen.png used Requested size: 203.83417pt x
+            165.61134pt.
+          source:
+            file: Poročilo.tex
+            range:
+              start: 78
+              end: 78
+          log:
+            file: Poročilo.log
+            range:
+              start: 585
+              end: 586
+        - severity: info
+          name: pdfTeX
+          category: Package pdftex.def
+          text: >-
+            graf_povprecna_ocena.png used Requested size: 203.83417pt x
+            168.7668pt.
+          source:
+            file: Poročilo.tex
+            range:
+              start: 83
+              end: 83
+          log:
+            file: Poročilo.log
+            range:
+              start: 590
+              end: 591
+        - severity: info
+          name: pdfTeX
+          category: Package pdftex.def
+          text: 'zanr-meta-pov.png used Requested size: 203.83417pt x 173.6983pt.'
+          source:
+            file: Poročilo.tex
+            range:
+              start: 90
+              end: 90
+          log:
+            file: Poročilo.log
+            range:
+              start: 595
+              end: 596
+        - severity: info
+          name: pdfTeX
+          category: Package pdftex.def
+          text: 'Top10MostPlayed.png used Requested size: 203.83417pt x 149.79446pt.'
+          source:
+            file: Poročilo.tex
+            range:
+              start: 104
+              end: 104
+          log:
+            file: Poročilo.log
+            range:
+              start: 603
+              end: 604
+        - severity: info
+          name: pdfTeX
+          category: Package pdftex.def
+          text: >-
+            graf_stevilo_dlc_leto.png used Requested size: 203.83417pt x
+            137.96356pt.
+          source:
+            file: Poročilo.tex
+            range:
+              start: 123
+              end: 123
+          log:
+            file: Poročilo.log
+            range:
+              start: 608
+              end: 609
+        - severity: info
+          name: pdfTeX
+          category: Package pdftex.def
+          text: 'KnownvsUnknown.png used Requested size: 203.83417pt x 137.96356pt.'
+          source:
+            file: Poročilo.tex
+            range:
+              start: 128
+              end: 128
+          log:
+            file: Poročilo.log
+            range:
+              start: 613
+              end: 614
+        - severity: info
+          name: pdfTeX
+          category: Package pdftex.def
+          text: >-
+            fgraf_povprecna_ocena_leto.png used Requested size: 203.83417pt x
+            140.4691pt.
+          source:
+            file: Poročilo.tex
+            range:
+              start: 142
+              end: 142
+          log:
+            file: Poročilo.log
+            range:
+              start: 621
+              end: 623
+        - severity: info
+          name: pdfTeX
+          category: Package pdftex.def
+          text: >-
+            graf_PovprecneIgre_leto.png used Requested size: 203.83417pt x
+            135.2095pt.
+          source:
+            file: Poročilo.tex
+            range:
+              start: 147
+              end: 147
+          log:
+            file: Poročilo.log
+            range:
+              start: 627
+              end: 628
+        - severity: info
+          name: pdfTeX
+          category: Package pdftex.def
+          text: >-
+            graf_SlabeIgre_leto.png used Requested size: 203.83417pt x
+            137.2669pt.
+          source:
+            file: Poročilo.tex
+            range:
+              start: 154
+              end: 154
+          log:
+            file: Poročilo.log
+            range:
+              start: 632
+              end: 633
+        - severity: info
+          name: pdfTeX
+          category: Package pdftex.def
+          text: 'graf_Dobre_leto.png used Requested size: 203.83417pt x 135.2095pt.'
+          source:
+            file: Poročilo.tex
+            range:
+              start: 161
+              end: 161
+          log:
+            file: Poročilo.log
+            range:
+              start: 637
+              end: 638
+        - severity: info
+          name: pdfTeX
+          category: Package pdftex.def
+          text: 'graf_meta_rec.png used Requested size: 203.83417pt x 130.02324pt.'
+          source:
+            file: Poročilo.tex
+            range:
+              start: 166
+              end: 166
+          log:
+            file: Poročilo.log
+            range:
+              start: 642
+              end: 643
+      inputs: []
+      outputs:
+        - Poročilo.pdf
+      calls: []
+    type: ParsedLaTeXLog
+  Poročilo.aux:
+    timeStamp: 2018-01-10T22:29:50.653Z
+    jobNames: []
+    hash: UmTorVZ5FfJdxhzY7cMYogkW0KUHe6M6ylphmLwFUpI=
+    type: LaTeXAuxilary
+  Poročilo.fls:
+    timeStamp: 2018-01-10T22:29:50.742Z
+    jobNames: []
+    hash: Dt5rKUgqtvkVfFwlqDTjq00qSJbTYJtASGTX7jmTmFc=
+    type: FileListing
+  Poročilo.log:
+    timeStamp: 2018-01-10T22:29:50.721Z
+    jobNames: []
+    hash: kM3Fwgcgh7aKnnA9NxVTncMFsgzEpeyI8xQcXJytVuc=
+    type: LaTeXLog
+    subType: pdfTeX
+  Poročilo.aux-ParsedLaTeXAuxilary:
+    timeStamp: 2018-01-10T22:24:45.631Z
+    jobNames: []
+    value:
+      commands:
+        - relax
+        - catcode
+        - select@language
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - newlabel
+        - '@writefile'
+        - newlabel
+        - '@writefile'
+        - newlabel
+        - '@writefile'
+        - '@writefile'
+        - newlabel
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - newlabel
+        - '@writefile'
+        - newlabel
+        - '@writefile'
+        - '@writefile'
+        - newlabel
+        - '@writefile'
+        - newlabel
+        - '@writefile'
+        - newlabel
+        - '@writefile'
+        - newlabel
+        - '@writefile'
+        - newlabel
+    type: ParsedLaTeXAuxilary
+  'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecrm1000.tfm':
+    timeStamp: 2001-06-20T18:35:22.000Z
+    jobNames: []
+  'C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def':
+    timeStamp: 2017-05-19T15:54:00.000Z
+    jobNames: []
+  'C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty':
+    timeStamp: 2017-05-19T15:54:01.000Z
+    jobNames: []
+    type: LaTeXStyle
+  'C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty':
+    timeStamp: 2017-03-19T14:40:24.000Z
+    jobNames: []
+    type: LaTeXStyle
+  'C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty':
+    timeStamp: 2017-03-19T14:40:24.000Z
+    jobNames: []
+    type: LaTeXStyle
+  'C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty':
+    timeStamp: 2017-03-19T14:40:24.000Z
+    jobNames: []
+    type: LaTeXStyle
+  'C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty':
+    timeStamp: 2017-03-19T14:40:24.000Z
+    jobNames: []
+    type: LaTeXStyle
+  'C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty':
+    timeStamp: 2017-03-19T14:40:26.000Z
+    jobNames: []
+    type: LaTeXStyle
+  'C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty':
+    timeStamp: 2017-03-19T14:40:26.000Z
+    jobNames: []
+    type: LaTeXStyle
+  'C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty':
+    timeStamp: 2017-03-19T14:40:26.000Z
+    jobNames: []
+    type: LaTeXStyle
+  'C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty':
+    timeStamp: 2017-03-19T14:40:26.000Z
+    jobNames: []
+    type: LaTeXStyle
+  'C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls':
+    timeStamp: 2017-04-15T00:08:58.000Z
+    jobNames: []
+    type: LaTeXClass
+  'C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty':
+    timeStamp: 2017-04-15T00:09:06.000Z
+    jobNames: []
+    type: LaTeXStyle
+  'C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty':
+    timeStamp: 2017-04-15T00:09:06.000Z
+    jobNames: []
+    type: LaTeXStyle
+  'C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu':
+    timeStamp: 2017-04-15T00:09:02.000Z
+    jobNames: []
+  'C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu':
+    timeStamp: 2017-04-15T00:09:02.000Z
+    jobNames: []
+  'C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo':
+    timeStamp: 2017-04-15T00:08:58.000Z
+    jobNames: []
+  'C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def':
+    timeStamp: 2017-04-15T00:09:02.000Z
+    jobNames: []
+  'C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu':
+    timeStamp: 2017-04-15T00:09:02.000Z
+    jobNames: []
+  'C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def':
+    timeStamp: 2017-04-15T00:09:02.000Z
+    jobNames: []
+  'C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg':
+    timeStamp: 2016-06-14T08:51:32.000Z
+    jobNames: []
+  'C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def':
+    timeStamp: 2017-01-21T21:18:06.000Z
+    jobNames: []
+  'C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty':
+    timeStamp: 2017-04-17T09:59:43.000Z
+    jobNames: []
+    type: LaTeXStyle
+  'C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty':
+    timeStamp: 2017-04-17T09:59:43.000Z
+    jobNames: []
+    type: LaTeXStyle
+  'C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty':
+    timeStamp: 2017-04-17T09:59:43.000Z
+    jobNames: []
+    type: LaTeXStyle
+  'C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty':
+    timeStamp: 2017-04-17T09:59:43.000Z
+    jobNames: []
+    type: LaTeXStyle
+  'C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty':
+    timeStamp: 2017-03-19T14:40:32.000Z
+    jobNames: []
+    type: LaTeXStyle
+  'C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty':
+    timeStamp: 2017-03-19T14:40:32.000Z
+    jobNames: []
+    type: LaTeXStyle
+  'C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty':
+    timeStamp: 2017-03-19T14:40:32.000Z
+    jobNames: []
+    type: LaTeXStyle
+  'C:\ProgramData\MiKTeX\2.9\pdftex\config\pdftex.map':
+    timeStamp: 2017-12-16T14:18:26.150Z
+    jobNames: []
+  'C:\Users\Westlife\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk':
+    timeStamp: 2017-10-27T19:15:59.471Z
+    jobNames: []
+  'C:\Users\Westlife\AppData\Local\MiKTeX\2.9\miktex\data\le\pdftex\pdflatex.fmt':
+    timeStamp: 2017-10-18T16:11:57.338Z
+    jobNames: []
+  'C:\Users\Westlife\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii':
+    timeStamp: 2011-06-01T08:54:21.000Z
+    jobNames: []
+  'C:\Users\Westlife\AppData\Roaming\MiKTeX\2.9\tex\latex\arabi\bblopts.cfg':
+    timeStamp: 2006-02-15T00:00:00.000Z
+    jobNames: []
+  'C:\Users\Westlife\AppData\Roaming\MiKTeX\2.9\tex\latex\babel-slovenian\slovene.ldf':
+    timeStamp: 2014-05-21T09:58:59.000Z
+    jobNames: []
+  Poročilo.pdf:
+    timeStamp: 2018-01-10T22:29:50.713Z
+    jobNames: []
+    hash: ZcEK0Tg5fXRArviozKMYzjjUEEGg1z5zXiAaYEYWERU=
+    type: PortableDocumentFormat
+  'C:\Users\Westlife\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex.sty':
+    timeStamp: 2017-12-19T10:45:56.000Z
+    jobNames: []
+    type: LaTeXStyle
+  'C:\Users\Westlife\AppData\Roaming\MiKTeX\2.9\tex\latex\etoolbox\etoolbox.sty':
+    timeStamp: 2017-11-22T15:24:38.000Z
+    jobNames: []
+    type: LaTeXStyle
+  'C:\Program Files\MiKTeX 2.9\tex\latex\amscls\amsthm.sty':
+    timeStamp: 2015-03-09T20:26:40.000Z
+    jobNames: []
+    type: LaTeXStyle
+  'C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty':
+    timeStamp: 2013-01-14T21:09:32.000Z
+    jobNames: []
+    type: LaTeXStyle
+  'C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty':
+    timeStamp: 2013-01-14T21:09:32.000Z
+    jobNames: []
+    type: LaTeXStyle
+  'C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty':
+    timeStamp: 2017-04-17T09:59:09.000Z
+    jobNames: []
+    type: LaTeXStyle
+  'C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty':
+    timeStamp: 2017-04-17T09:59:10.000Z
+    jobNames: []
+    type: LaTeXStyle
+  'C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty':
+    timeStamp: 2017-04-17T09:59:10.000Z
+    jobNames: []
+    type: LaTeXStyle
+  'C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty':
+    timeStamp: 2017-04-17T09:59:10.000Z
+    jobNames: []
+    type: LaTeXStyle
+  'C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty':
+    timeStamp: 2017-04-17T09:59:10.000Z
+    jobNames: []
+    type: LaTeXStyle
+  'C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty':
+    timeStamp: 2016-07-20T14:12:33.000Z
+    jobNames: []
+    type: LaTeXStyle
+  'C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty':
+    timeStamp: 2017-03-19T14:40:32.000Z
+    jobNames: []
+    type: LaTeXStyle
+  'C:\Program Files\MiKTeX 2.9\tex\latex\tools\enumerate.sty':
+    timeStamp: 2017-04-17T09:59:54.000Z
+    jobNames: []
+    type: LaTeXStyle
+  'C:\Program Files\MiKTeX 2.9\tex\latex\tools\verbatim.sty':
+    timeStamp: 2017-04-17T09:59:54.000Z
+    jobNames: []
+    type: LaTeXStyle
+  'C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty':
+    timeStamp: 2013-12-31T11:47:32.000Z
+    jobNames: []
+    type: LaTeXStyle
+  'C:\Users\Westlife\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg':
+    timeStamp: 2015-11-06T13:07:59.000Z
+    jobNames: []
+  'C:\Users\Westlife\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty':
+    timeStamp: 2015-11-06T13:07:59.000Z
+    jobNames: []
+    type: LaTeXStyle
+  'C:\Users\Westlife\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty':
+    timeStamp: 2015-11-06T13:07:59.000Z
+    jobNames: []
+    type: LaTeXStyle
+  'C:\Users\Westlife\AppData\Roaming\MiKTeX\2.9\tex\latex\preprint\fullpage.sty':
+    timeStamp: 2013-05-21T15:07:53.000Z
+    jobNames: []
+    type: LaTeXStyle
+  'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecrm1200.tfm':
+    timeStamp: 2001-06-20T18:35:26.000Z
+    jobNames: []
+  'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecrm1728.tfm':
+    timeStamp: 2001-06-20T18:35:28.000Z
+    jobNames: []
+  'C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm':
+    timeStamp: 2009-02-06T20:24:08.000Z
+    jobNames: []
+  'C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm':
+    timeStamp: 2009-02-06T20:24:08.000Z
+    jobNames: []
+  'C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm':
+    timeStamp: 2009-02-06T20:24:14.000Z
+    jobNames: []
+  'C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam7.tfm':
+    timeStamp: 2009-02-06T20:24:14.000Z
+    jobNames: []
+  'C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm':
+    timeStamp: 2009-02-06T20:24:14.000Z
+    jobNames: []
+  'C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm7.tfm':
+    timeStamp: 2009-02-06T20:24:14.000Z
+    jobNames: []
+  'C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmex10.tfm':
+    timeStamp: 2006-01-09T00:04:13.000Z
+    jobNames: []
+  'C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmmi12.tfm':
+    timeStamp: 2006-01-09T00:04:13.000Z
+    jobNames: []
+  'C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmmi6.tfm':
+    timeStamp: 2006-01-09T00:04:13.000Z
+    jobNames: []
+  'C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmmi8.tfm':
+    timeStamp: 2006-01-09T00:04:13.000Z
+    jobNames: []
+  'C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr12.tfm':
+    timeStamp: 2006-01-09T00:04:13.000Z
+    jobNames: []
+  'C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr6.tfm':
+    timeStamp: 2006-01-09T00:04:13.000Z
+    jobNames: []
+  'C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr8.tfm':
+    timeStamp: 2006-01-09T00:04:13.000Z
+    jobNames: []
+  'C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm':
+    timeStamp: 2006-01-09T00:04:13.000Z
+    jobNames: []
+  'C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmsy6.tfm':
+    timeStamp: 2006-01-09T00:04:13.000Z
+    jobNames: []
+  'C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmsy8.tfm':
+    timeStamp: 2006-01-09T00:04:13.000Z
+    jobNames: []
+  'C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd':
+    timeStamp: 2013-01-14T21:09:32.000Z
+    jobNames: []
+    type: FontDescription
+  'C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd':
+    timeStamp: 2013-01-14T21:09:32.000Z
+    jobNames: []
+    type: FontDescription
+  'C:\Users\Westlife\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk':
+    timeStamp: 2017-10-28T18:07:53.514Z
+    jobNames: []
+  'C:\Users\Westlife\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk':
+    timeStamp: 2017-10-28T18:07:54.334Z
+    jobNames: []
+  'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecbx1440.tfm':
+    timeStamp: 2001-06-20T18:32:40.000Z
+    jobNames: []
+  'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecrm1440.tfm':
+    timeStamp: 2001-06-20T18:35:28.000Z
+    jobNames: []
+  'C:\Users\Westlife\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk':
+    timeStamp: 2017-11-08T20:13:32.917Z
+    jobNames: []
+  'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecbx1728.tfm':
+    timeStamp: 2001-06-20T18:32:42.000Z
+    jobNames: []
+  'C:\Users\Westlife\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk':
+    timeStamp: 2018-01-01T13:32:50.185Z
+    jobNames: []
+  'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecbx1200.tfm':
+    timeStamp: 2001-06-20T18:32:38.000Z
+    jobNames: []
+  'C:\Users\Westlife\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk':
+    timeStamp: 2018-01-01T13:59:15.901Z
+    jobNames: []
+  'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ectt1000.tfm':
+    timeStamp: 2001-06-20T18:39:00.000Z
+    jobNames: []
+  'C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam5.tfm':
+    timeStamp: 2009-02-06T20:24:14.000Z
+    jobNames: []
+  'C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm5.tfm':
+    timeStamp: 2009-02-06T20:24:14.000Z
+    jobNames: []
+  'C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd':
+    timeStamp: 2017-04-15T00:09:04.000Z
+    jobNames: []
+    type: FontDescription
+  'C:\Users\Westlife\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1000.pk':
+    timeStamp: 2018-01-01T14:05:38.753Z
+    jobNames: []
+  'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecbx2074.tfm':
+    timeStamp: 2001-06-20T18:32:44.000Z
+    jobNames: []
+  'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\eccc1000.tfm':
+    timeStamp: 2001-06-20T18:33:00.000Z
+    jobNames: []
+  'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\eccc1440.tfm':
+    timeStamp: 2001-06-20T18:33:06.000Z
+    jobNames: []
+  'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\eccc1728.tfm':
+    timeStamp: 2001-06-20T18:33:08.000Z
+    jobNames: []
+  'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecrm2074.tfm':
+    timeStamp: 2001-06-20T18:35:30.000Z
+    jobNames: []
+  'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecti1440.tfm':
+    timeStamp: 2001-06-20T18:38:46.000Z
+    jobNames: []
+  'C:\Users\Westlife\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk':
+    timeStamp: 2017-11-08T20:13:34.072Z
+    jobNames: []
+  'C:\Users\Westlife\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1440.pk':
+    timeStamp: 2018-01-01T14:11:31.971Z
+    jobNames: []
+  'C:\Users\Westlife\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1728.pk':
+    timeStamp: 2018-01-01T14:11:32.965Z
+    jobNames: []
+  'C:\Users\Westlife\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1440.pk':
+    timeStamp: 2018-01-01T14:11:30.786Z
+    jobNames: []
+  'C:\Users\Westlife\AppData\Roaming\MiKTeX\2.9\tex\latex\mwe\example-image-1x1.png':
+    timeStamp: 2017-12-10T15:01:45.000Z
+    jobNames: []
+  'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecrm0500.tfm':
+    timeStamp: 2001-06-20T18:35:14.000Z
+    jobNames: []
+  'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecrm0700.tfm':
+    timeStamp: 2001-06-20T18:35:16.000Z
+    jobNames: []
+  'C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb':
+    timeStamp: 2009-07-14T18:37:47.000Z
+    jobNames: []
+  'C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb':
+    timeStamp: 2009-07-14T18:37:47.000Z
+    jobNames: []
+  graf_stevilo_ocen.png:
+    timeStamp: 2018-01-10T20:32:34.474Z
+    jobNames: []
+    hash: cjKF7ez7X5bjR5renlLTs91S9HDWy+83UaERPK4q8n0=
+  'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecbx1000.tfm':
+    timeStamp: 2001-06-20T18:32:36.000Z
+    jobNames: []
+  'C:\Users\Westlife\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk':
+    timeStamp: 2017-10-28T19:07:47.426Z
+    jobNames: []
+  graf_povprecna_ocena.png:
+    timeStamp: 2018-01-10T20:32:43.623Z
+    jobNames: []
+    hash: CBMy5Z1vXRwtmNZMQllOAr+ORpVuf0BfJ+rHkF9WF0E=
+  zanr-meta-pov.png:
+    timeStamp: 2018-01-02T20:26:22.532Z
+    jobNames: []
+    hash: NBHF0EXV2PzMXY5ldSmp6qnE4y8P2z8ocgrwgwbrglc=
+  'C:\Program Files\MiKTeX 2.9\tex\latex\tools\.tex':
+    timeStamp: 2017-04-17T09:59:54.000Z
+    jobNames: []
+    type: TeX
+  Top10MostPlayed.png:
+    timeStamp: 2018-01-10T19:38:11.484Z
+    jobNames: []
+    hash: yG+hv1Sp2VcwpbEA9gTetuTHJ09tKAfmU6YUvirKS1E=
+  KnownvsUnknown.png:
+    timeStamp: 2018-01-02T21:31:03.317Z
+    jobNames: []
+    hash: CTsUMMB+qnFZcI3K3OfSTtYDz24jXteeg+NLzb5VlW0=
+  graf_stevilo_dlc_leto.png:
+    timeStamp: 2018-01-10T21:09:42.773Z
+    jobNames: []
+    hash: Dtw4QzsKqnrnYw8C5udjjmddWZmcRJK7RVBl5lVvuTo=
+  fgraf_povprecna_ocena_leto.png:
+    timeStamp: 2018-01-10T21:09:42.874Z
+    jobNames: []
+    hash: L5A288SgpqwtAlPQnioqbYjCPInm9XPHBqiDfn2Atc4=
+  graf_Dobre_leto.png:
+    timeStamp: 2018-01-02T18:27:36.792Z
+    jobNames: []
+    hash: sds6r4AFLkoOdwG3dUu9SaI26YnqpQVTOCqggElw9Yc=
+  graf_PovprecneIgre_leto.png:
+    timeStamp: 2018-01-02T18:27:12.723Z
+    jobNames: []
+    hash: 3IbFl+cxXv0jJZ5/X98/ENAqqJQZ3xoqC2M78LQHle0=
+  Poročilo.synctex.gz:
+    timeStamp: 2018-01-10T22:29:50.718Z
+    jobNames: []
+    hash: aT8oZMUfIMvgVlW3hc9NrPrI6fR81i8Ph9C1qOUHzG0=
+    type: SyncTeX
+  graf_SlabeIgre_leto.png:
+    timeStamp: 2018-01-02T18:27:00.178Z
+    jobNames: []
+    hash: LMwk4qv1qHGnsvVvNhHSu+/jKHkSvdafL9mifk5boAE=
+  graf_meta_rec.png:
+    timeStamp: 2018-01-02T18:11:07.023Z
+    jobNames: []
+    hash: bF285B0bC53UUDlXtoFXWy8oKcy+xT2s82IuZBJZOUM=
+rules:
+  - name: ApplyOptions
+    command: load
+    phase: initialize
+    parameters: []
+    inputs:
+      - dicy.yaml-ParsedYAML
+      - Poročilo.yaml-ParsedYAML
+      - Poročilo.tex-ParsedLaTeXMagic
+      - dicy-instance.yaml-ParsedYAML
+      - 'C:\Users\Westlife\.dicy.yaml-ParsedYAML'
+    outputs: []
+  - name: LoadAndValidateCache
+    command: load
+    phase: initialize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: ApplyOptions
+    command: load
+    phase: execute
+    parameters: []
+    inputs:
+      - dicy.yaml-ParsedYAML
+      - Poročilo.yaml-ParsedYAML
+      - Poročilo.tex-ParsedLaTeXMagic
+      - dicy-instance.yaml-ParsedYAML
+      - 'C:\Users\Westlife\.dicy.yaml-ParsedYAML'
+    outputs: []
+  - name: ParseOptionsFile
+    command: load
+    phase: execute
+    parameters: []
+    inputs:
+      - 'C:\Users\Westlife\.dicy.yaml'
+    outputs:
+      - 'C:\Users\Westlife\.dicy.yaml-ParsedYAML'
+  - name: ParseLaTeXMagic
+    command: load
+    phase: execute
+    parameters:
+      - Poročilo.tex
+    inputs:
+      - Poročilo.tex
+    outputs:
+      - Poročilo.tex-ParsedLaTeXMagic
+  - name: AssignJobNames
+    command: load
+    phase: finalize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: FindLogFiles
+    command: build
+    phase: initialize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: LaTeX
+    command: build
+    phase: execute
+    parameters:
+      - Poročilo.tex
+    inputs:
+      - Poročilo.tex
+      - Poročilo.fls-ParsedFileListing
+      - Poročilo.log-ParsedLaTeXLog
+      - Poročilo.aux
+      - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecrm1000.tfm'
+      - 'C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def'
+      - 'C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty'
+      - 'C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty'
+      - 'C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty'
+      - 'C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty'
+      - 'C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty'
+      - 'C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty'
+      - 'C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty'
+      - 'C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty'
+      - 'C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty'
+      - 'C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls'
+      - 'C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty'
+      - 'C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty'
+      - 'C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu'
+      - 'C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu'
+      - 'C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo'
+      - 'C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def'
+      - 'C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu'
+      - 'C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def'
+      - 'C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg'
+      - 'C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def'
+      - 'C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty'
+      - 'C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty'
+      - 'C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty'
+      - 'C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty'
+      - 'C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty'
+      - 'C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty'
+      - 'C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty'
+      - 'C:\ProgramData\MiKTeX\2.9\pdftex\config\pdftex.map'
+      - >-
+        C:\Users\Westlife\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk
+      - >-
+        C:\Users\Westlife\AppData\Local\MiKTeX\2.9\miktex\data\le\pdftex\pdflatex.fmt
+      - >-
+        C:\Users\Westlife\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+      - 'C:\Users\Westlife\AppData\Roaming\MiKTeX\2.9\tex\latex\arabi\bblopts.cfg'
+      - >-
+        C:\Users\Westlife\AppData\Roaming\MiKTeX\2.9\tex\latex\babel-slovenian\slovene.ldf
+      - >-
+        C:\Users\Westlife\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex.sty
+      - >-
+        C:\Users\Westlife\AppData\Roaming\MiKTeX\2.9\tex\latex\etoolbox\etoolbox.sty
+      - 'C:\Program Files\MiKTeX 2.9\tex\latex\amscls\amsthm.sty'
+      - 'C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty'
+      - 'C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty'
+      - 'C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty'
+      - 'C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty'
+      - 'C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty'
+      - 'C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty'
+      - 'C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty'
+      - 'C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty'
+      - 'C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty'
+      - 'C:\Program Files\MiKTeX 2.9\tex\latex\tools\enumerate.sty'
+      - 'C:\Program Files\MiKTeX 2.9\tex\latex\tools\verbatim.sty'
+      - 'C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty'
+      - >-
+        C:\Users\Westlife\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
+      - >-
+        C:\Users\Westlife\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
+      - >-
+        C:\Users\Westlife\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
+      - >-
+        C:\Users\Westlife\AppData\Roaming\MiKTeX\2.9\tex\latex\preprint\fullpage.sty
+      - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecrm1200.tfm'
+      - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecrm1728.tfm'
+      - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm'
+      - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm'
+      - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm'
+      - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam7.tfm'
+      - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm'
+      - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm7.tfm'
+      - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmex10.tfm'
+      - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmmi12.tfm'
+      - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmmi6.tfm'
+      - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmmi8.tfm'
+      - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr12.tfm'
+      - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr6.tfm'
+      - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr8.tfm'
+      - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm'
+      - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmsy6.tfm'
+      - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmsy8.tfm'
+      - 'C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd'
+      - 'C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd'
+      - >-
+        C:\Users\Westlife\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk
+      - >-
+        C:\Users\Westlife\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk
+      - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecbx1440.tfm'
+      - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecrm1440.tfm'
+      - >-
+        C:\Users\Westlife\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
+      - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecbx1728.tfm'
+      - >-
+        C:\Users\Westlife\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk
+      - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecbx1200.tfm'
+      - >-
+        C:\Users\Westlife\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
+      - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ectt1000.tfm'
+      - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam5.tfm'
+      - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm5.tfm'
+      - 'C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd'
+      - >-
+        C:\Users\Westlife\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1000.pk
+      - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecbx2074.tfm'
+      - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\eccc1000.tfm'
+      - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\eccc1440.tfm'
+      - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\eccc1728.tfm'
+      - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecrm2074.tfm'
+      - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecti1440.tfm'
+      - >-
+        C:\Users\Westlife\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk
+      - >-
+        C:\Users\Westlife\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1440.pk
+      - >-
+        C:\Users\Westlife\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1728.pk
+      - >-
+        C:\Users\Westlife\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1440.pk
+      - >-
+        C:\Users\Westlife\AppData\Roaming\MiKTeX\2.9\tex\latex\mwe\example-image-1x1.png
+      - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecrm0500.tfm'
+      - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecrm0700.tfm'
+      - 'C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb'
+      - 'C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb'
+      - graf_stevilo_ocen.png
+      - 'C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecbx1000.tfm'
+      - >-
+        C:\Users\Westlife\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk
+      - graf_povprecna_ocena.png
+      - zanr-meta-pov.png
+      - 'C:\Program Files\MiKTeX 2.9\tex\latex\tools\.tex'
+      - Top10MostPlayed.png
+      - KnownvsUnknown.png
+      - graf_stevilo_dlc_leto.png
+      - fgraf_povprecna_ocena_leto.png
+      - graf_Dobre_leto.png
+      - graf_PovprecneIgre_leto.png
+      - graf_SlabeIgre_leto.png
+      - graf_meta_rec.png
+    outputs:
+      - Poročilo.aux
+      - Poročilo.fls
+      - Poročilo.log
+      - Poročilo.pdf
+      - Poročilo.synctex.gz
+  - name: ParseLaTeXAuxilary
+    command: build
+    phase: execute
+    parameters:
+      - Poročilo.aux
+    inputs:
+      - Poročilo.aux
+    outputs:
+      - Poročilo.aux-ParsedLaTeXAuxilary
+  - name: ParseFileListing
+    command: build
+    phase: execute
+    parameters:
+      - Poročilo.fls
+    inputs:
+      - Poročilo.fls
+    outputs:
+      - Poročilo.fls-ParsedFileListing
+  - name: ParseLaTeXLog
+    command: build
+    phase: execute
+    parameters:
+      - Poročilo.log
+    inputs:
+      - Poročilo.log
+    outputs:
+      - Poročilo.log-ParsedLaTeXLog
+  - name: CheckForMissingBuildRule
+    command: build
+    phase: finalize
+    parameters:
+      - Poročilo.tex
+    inputs:
+      - Poročilo.tex
+    outputs: []
+  - name: FindLogFiles
+    command: log
+    phase: initialize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: ReportLogMessages
+    command: log
+    phase: execute
+    parameters:
+      - Poročilo.log-ParsedLaTeXLog
+    inputs:
+      - Poročilo.log-ParsedLaTeXLog
+    outputs: []
+  - name: ParseLaTeXLog
+    command: log
+    phase: execute
+    parameters:
+      - Poročilo.log
+    inputs:
+      - Poročilo.log
+    outputs:
+      - Poročilo.log-ParsedLaTeXLog
+  - name: SaveCache
+    command: save
+    phase: execute
+    parameters: []
+    inputs: []
+    outputs: []
