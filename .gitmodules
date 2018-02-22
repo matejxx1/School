@@ -1,3 +1,6 @@
 [submodule "Programiranje_1/programiranje-1"]
 	path = Programiranje_1/programiranje-1
 	url = https://github.com/matejxx1/programiranje-1.git
+[submodule "FMF-Seminar"]
+	path = FMF-Seminar
+	url = https://github.com/matejxx1/FMF-Seminar.git
