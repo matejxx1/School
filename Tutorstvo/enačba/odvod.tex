@@ -1,0 +1,21 @@
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[slovene]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{enumerate}
+\usepackage{listings}
+\usepackage{verbatim}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{url}
+
+\begin{document}
+$f(x)=x^3\arctan(x^2)\ln(x^5)$ tole stvar morš odvajat s pravilom za produkt.
+
+$f'(x)=\underbrace{3x^2\arctan(x^2)\ln(x^5)}_{tuki\, sm\, odvaju\, samo\, x^3\, ostalo\, prepisu}+\underbrace{x^3\frac{2x}{1+x^4}\ln(x^5)}_{odvaju\,\arctan(x^2)}+\underbrace{x^3\arctan(x^2)\frac{5x^4}{x^5}}_{odvaju\, \ln(X^5)}$
+\end{document}
